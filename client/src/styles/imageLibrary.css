@@ -1,0 +1,39 @@
+/* src/styles/imageLibrary.css */
+
+.container {
+    margin-top: 20px;
+  }
+  
+  .card-link {
+    text-decoration: none;
+    color: inherit; /* Inherit color from parent */
+  }
+  
+  .card {
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card-img-top {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card-body {
+    padding: 15px;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  @media (min-width: 768px) {
+    .card-link {
+      display: block; /* Ensure Link covers entire card */
+    }
+  }
+  
